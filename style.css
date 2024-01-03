@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    transition: 0.5s;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 140px;
+    width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.btnn{
+    margin: 10px;
+    padding: 10px 140px ;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
